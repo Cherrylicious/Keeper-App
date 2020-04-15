@@ -2,6 +2,7 @@ import React from 'react';
 import Note from './Note'
 
 function Notearray ({notes}) {
+  console.log(notes)
   return (
       <div className="note">
       {
